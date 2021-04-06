@@ -2,158 +2,82 @@ import { CvItem } from '../cv-item';
 
 // tslint:disable:max-line-length
 export const GENERAL = {
-  name: 'Sebastian Schreck',
+  name: 'Kayden Miller',
   position: 'Software Engineer',
-  description: `Sebastian started his career in IT as a QA Engineer during his studies of Computer Science at TU Berlin. After completing his master's thesis, Sebastian became a professional software engineer at Mister Spex doing backend as well as frontend development. Unhappy with the segregation between Operations and Development teams, he decided to transfer into Ops full time to get more insights. Having seen both sides of the wall of confusion, Sebastian became a strong advocate for DevOps principles and shared responsibility. He talked at code.talks and DevOpsCon about the topics DevOps, collaboration, feedback culture, and responsibilities.
-
-Sebastian am looking for new opportunities which include modern, progressive technologies in a collaborative working environment. Learning new things and trying out new stuff are part of his motivation. New roles are of interest if he can accompany the software end to end - from planning, implementation, deployment towards monitoring. Amplified feedback loops and a culture of continuous learning and experimentation define a proper working environment for him. Job offers outside of Berlin are not relevant to him.
-
-This website is designed to be a simple, self-hosted online-CV, based on Angular. To find out more about the project, please click on the AngularCV logo in the bottom right corner.`,
+  description: `Kayden started his career in software at a company in Layton, Utah, called Guru Technologies. Here he developed and refined many of the skills he now has. Prior to Guru Kayden worked on many smaller software projects and did some open source work with a group called Solaris Skunk Werks for a BattleTech board game tool.\n\n` +
+  `He has always loved working in software and has been doing it sense he first assembled a computer around the age of 8. However, he didn't fully get into the software world of technology until his later years in Junior High where he learned his frist language of Java with the UI tool Swing.`,
 };
 // tslint:enable:max-line-length
 
 export const CVITEMS: CvItem[] = [
   {
-    title: 'Netlight Consulting GmbH',
-    subtitle: 'Senior Consultant',
-    begin: '2019-01',
+    title: 'Guru Technologies',
+    subtitle: 'Software Engineer',
+    begin: '2019-05',
     end: '',
-    description: 'Netlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, ' +
-      'create valuable results for our clients. To continue to grow locally and internationally, we are looking for motivated team ' +
-      'players & people with drive to join the Netlight team of inspiring, knowledgeable and emphatic talents. Currently we have offices ' +
-      'in Stockholm, Oslo, Munich, Helsinki, Berlin, Hamburg, Copenhagen, Zurich, and Frankfurt. We are rapidly expanding on the European market.',
-    tags: ['Java', 'SpringBoot', 'React', 'Kafka', 'MongoDB', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Docker', 'Jira', 'Bamboo',
-      'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash'],
-    link: 'https://www.netlight.com',
-    thumbnail: 'Netlight_Consulting_logo.svg',
+    description: 'Guru Technologies is a Software Development contracting firm that works with companies to develop custom software for their needs' +
+      'We work in many different frameworks and have many engineers available to help with the projects we acquire. We also work on our own internal projects' +
+      ' that we use to help our daily lives as developers.',
+    tags: ['C#', '.NET', '.NET Core', 'Django', 'Kotlin', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Docker', 'Jira',
+      'Agile', 'AWS', 'Confluence', 'GitLab', 'bash'],
+    link: 'https://www.gurutechnologies.net/',
+    thumbnail: 'guru-tech-logo-small.png',
   },
   {
-    title: 'Mister Spex GmbH',
-    subtitle: 'Professional Software Engineer',
-    begin: '2015-06',
-    end: '2018-12',
-    description: 'Implementing features for the e-Commerce platform Intershop in order to customize it. ' +
-      'Developing a separated API as microservice in a DevOps way, which is responsible for price calculation and ' +
-      'feature configuration of prescription glasses. Later switched to the operations team. ' +
-      'Maintaining and operating the platform running the e-commerce shop. ' +
-      'Automating processes and enabling the development teams to work. ' +
-      'Planned and executed the migration of several services to the cloud, including the main webshop application.',
-    tags: ['Java', 'Intershop', 'Python', 'Ansible', 'Git', 'KanBan', 'PyCharm', 'Apache HTTPD', 'AWS', 'Docker', 'Jira', 'Bamboo', 'TDD',
-      'JavaScript', 'eclipse', 'Scrum', 'Subversion', 'Scala', 'Testrail', 'trac', 'Confluence', 'bash', 'Kubernetes', 'Oracle PL/SQL'],
-    link: 'https://www.misterspex.com',
-    thumbnail: 'msx-logo.png',
-  },
-  {
-    title: 'Mister Spex GmbH',
-    subtitle: 'Working student Product Management / Quality Assurance',
-    begin: '2012-10',
-    end: '2015-05',
-    description: 'Ensuring the quality and functionality of the web shop, ERP software and their interfaces. ' +
-      'Planning and conduct releases.',
-    tags: ['Selenium', 'Scrum', 'Quality Assurance', 'Release Management', 'Testrail', 'Subversion', 'trac', 'Microsoft Dynamics NAV'],
-    link: 'https://www.misterspex.com',
-    thumbnail: 'msx-logo.png',
-  },
-  {
-    title: 'Müllers Fanshop',
-    subtitle: 'Merchandising salesman at O2World Berlin',
-    begin: '2010-08',
-    end: '2012-09',
-    description: 'Selling merchandising for sport events and concerts. Responsibility over one of the sale points.',
-    link: '',
-    thumbnail: 'muellers_fanshop_logo_001.jpg',
-  },
-  {
-    title: 'MBU Merchandising und Sportreisen GmbH & Co. KG',
-    subtitle: 'Merchandising salesman at O2World Berlin',
-    begin: '2008-09',
-    end: '2010-07',
-    description: 'Selling merchandising for sport events and concerts. Responsibility over one of the sale points.',
-    link: '',
-    thumbnail: 'mbu.png',
+    title: 'CubiScan',
+    subtitle: 'Assembly Technician',
+    begin: '2015-05',
+    end: '2019-05',
+    description: '30 years ago, an idea that began at Cubiscan, developed into the dimensioning and cubing industry. Ever since, Cubiscan has ' +
+      'been the industry leader, providing dimensioning, cubing, and weighing equipment and systems to meet your material handling, freight, and warehousing needs.\n' +
+      'From shipping and receiving, to warehousing, to logistics and transportation, we understand the challenges you face because we’ve been' +
+      ' there, with you in the trenches. Let our technology, our data and our experienced team guide your company to increased profits and improved' +
+      ' efficiencies. At Cubiscan, experience is our guide.',
+    tags: ['C#', 'Dimensioning', 'Hardware', 'Assembly', 'C', 'C++', 'Object Pascal', 'Delphi'],
+    link: 'https://cubiscan.com/',
+    thumbnail: 'cubiscan-logo.png',
   },
 ];
 
 export const CERTIFICATES: CvItem[] = [
   {
-    title: 'AWS Cloud Practitioner',
-    subtitle: 'Amazon Web Services (AWS)',
+    title: 'Git Version Control Basics',
+    subtitle: 'Ogden-Weber Applied Technology College',
     begin: '',
-    end: '2018-11-26',
-    description: '',
-    link: 'https://www.youracclaim.com/badges/feda3cd6-424a-4874-804f-60cb005aa546',
-    thumbnail: 'AWS_certified_cloud_practitioner.png',
-    attachment: 'AWS_Certified_Cloud_Practitioner_certificate.pdf',
-  },
-  {
-    title: 'Intershop Development',
-    subtitle: 'Intershop Communications AG',
-    begin: '',
-    end: '2015-04',
-    description: 'Overview (IS7-100), Intershop Frontend Development (IS7-114), Intershop Backend Programming (IS7-118)',
-    link: 'http://www.intershop.de/',
-    thumbnail: 'intershop.svg',
-    attachment: 'ISH_Development_Training_2015.pdf',
-  },
-  {
-    title: 'Git version control basics',
-    subtitle: 'Mister Spex GmbH',
-    begin: '',
-    end: '2014-05-12',
+    end: '2016-05',
     description: '',
     thumbnail: 'Git-Logo-2Color.png',
     attachment: '',
-  },
-  {
-    title: 'ITIL v3 Foundation Certificate',
-    subtitle: 'TÜV SÜD Akademie',
-    begin: '',
-    end: '2012-07-02',
-    description: '',
-    thumbnail: 'itil_foundation.png',
-    attachment: 'ITIL-Zertifikat_2012.pdf',
-  },
-  {
-    title: 'Test of English as foreign language (TOEFL) - ITP',
-    subtitle: 'LTS Language & Testing Service',
-    begin: '',
-    end: '2011-08-31',
-    description: '',
-    thumbnail: 'ETS_TOEFL_ITP.png',
-    attachment: 'LTS_TOEFL ITP-Zertifikat_2011.pdf',
   },
 ];
 
 export const EDUCATION: CvItem[] = [
   {
-    title: 'Technische Universität Berlin',
-    subtitle: 'Master of Science | Computer Science',
-    begin: '2011-10',
-    end: '2015-04',
+    title: 'Weber State University',
+    subtitle: 'Bachelor of Science | Computer Science',
+    begin: '2016-8',
+    end: '',
     description: '',
-    tags: ['Scrum', 'Subversion', 'Git', 'Java', 'Scala', 'eclipse', 'Lua', 'Maven'],
-    link: 'http://www.tu-berlin.de',
-    thumbnail: 'TU-Berlin-Logo.png',
+    tags: ['Agile', 'C', 'C++', 'Git', 'Java', 'C# .NET', 'Sql'],
+    link: 'https://www.weber.edu/',
+    thumbnail: 'Weber_State_Wildcats_logo.png',
   },
   {
-    title: 'Technische Universität Berlin',
+    title: 'Ogden-Weber Applied Technology College',
     subtitle: 'Bachelor of Science | Computer Science',
-    begin: '2008-10',
-    end: '2011-12',
+    begin: '2013-1',
+    end: '2016-5',
     description: '',
-    tags: ['Scrum', 'Subversion', 'Java', 'C', 'Assembler', 'eclipse', 'Opal', 'ant'],
-    link: 'http://www.tu-berlin.de',
-    thumbnail: 'TU-Berlin-Logo.png',
+    tags: ['C#', '.NET', 'Xamarin', 'Angular', 'Git', 'Visual Studio', 'Visual Basic', 'Java', 'Assembly', 'C++', 'C'],
+    link: 'https://www.otech.edu/',
+    thumbnail: 'Ogden-Weber_Tech_College_Logo.jpg',
   },
 ];
 
 export const LANGUAGES = [
   // RATE YOURSELF  =>  100% = NATIVE;  80-99% = FLUENT;  60-79% = ADVANCED;  40-59% = INTERMEDIATE;  20-39% = ELEMENTARY;  0-19% = BEGINNER
-  { title: 'German | Deutsch', level: '100' },
-  { title: 'English', level: '80' },
-  { title: 'Italian | Italiano', level: '70' },
-  { title: 'French | Français', level: '30' },
-  { title: 'Swedish | Svenska', level: '15' },
+  { title: 'English', level: '100' },
+  { title: 'German | Deutsch', level: '15' },
 ];
 
 export const PROJECTS: CvItem[] = [
@@ -179,88 +103,6 @@ export const PROJECTS: CvItem[] = [
     link: 'https://github.com/StegSchreck/AngularCV',
     thumbnail: '../AngularCV.svg',
   },
-  {
-    title: 'UberPage',
-    subtitle: 'A simple self-hosted website as overview on different self-defined links',
-    begin: '2019-07',
-    end: '',
-    description: 'This project aims to offer a simple overview website for different links.',
-    tags: ['React', 'Javascript', 'GitHub', 'CSS', 'JetBrains WebStorm', 'AWS', 'npm'],
-    link: 'https://github.com/StegSchreck/uberpage',
-    thumbnail: 'UberPage_kompakt.png',
-  },
-  {
-    title: 'PP-Auxmoney-Parser',
-    subtitle: 'Python based parser for Auxmoney to import to Portfolio Performance',
-    begin: '2019-07',
-    end: '',
-    description: 'This script creates a CSV with the interests you received for your investments at Auxmoney. ' +
-      'The CSV is created in a format to be imported to Portfolio Performance.',
-    tags: ['Python', 'Git', 'Selenium', 'Beautifulsoup', 'CSV'],
-    link: 'https://github.com/StegSchreck/PP-Auxmoney-Parser',
-    thumbnail: 'PP-Auxmoney-Parser.png',
-  },
-  {
-    title: 'IS24 Price Per Area',
-    subtitle: 'Chrome extension to display the price per m² on ImmoScout',
-    begin: '2020-02',
-    end: '',
-    description: 'Show price per m² on the search result pages, the shortlist page, and the expose pages of ImmobilienScout24. ' +
-      'The extension also allows a colored highlighting with customizable thresholds.' +
-      'Not affiliated with ImmobilienScout24 GmbH.',
-    tags: ['Javascript', 'CSS', 'MaterialDesign', 'Chrome'],
-    link: 'https://github.com/StegSchreck/is24-price-per-area',
-    thumbnail: 'is24-price-per-area.svg',
-  },
-  {
-    title: 'Recoding Aviation Hackathon',
-    subtitle: 'Hackathon for improving the passenger journey for flights',
-    begin: '',
-    end: '2017-06',
-    description: 'Sebastian participated in this hackathon together with three collegues. ' +
-      'They develpoed an idea how the passenger can be relieved from stress and anxiety at an airport. ' +
-      'The idea was named \'Unwait the airport\'. The resulting idea convinced the technical experts of the Munich Airport, ' +
-      'which awarded their partner prize.',
-    tags: ['Angular 2', 'MaterialDesign', 'Git', 'NodeJS', 'ACI ACRIS Seamless Tavel API', 'Express.js', 'MongoDB', 'twilio'],
-    link: 'https://github.com/StegSchreck/RecodingAviation',
-    thumbnail: 're-coding-avation-ba.png',
-  },
-  {
-    title: 'OFM Helper',
-    subtitle: 'Support for analysis of data in football management browser game \'OFM\'',
-    begin: '2016-05',
-    end: '2017-05',
-    description: 'OFM is a browser game where you manage a football team. ' +
-      'The \'OFM Helper\' helps the user to analyse the data which emerges from matches, trainings, etc. ' +
-      'We formed a two-man team for developing this project.',
-    tags: ['Python', 'Django', 'Git', 'Selenium', 'Beautifulsoup', 'TDD', 'Docker'],
-    link: 'https://www.ofmhelper.de/',
-    thumbnail: 'OFM_Helper.png',
-  },
-  {
-    title: 'GoOLAP.info',
-    subtitle: 'Fact search engine',
-    begin: '2010',
-    end: '2011',
-    description: 'GoOLAP is a fact search engine, which crawls the web and combines relevant data using natural language processing. ' +
-      'It is a research project at the DIMA department of TU Berlin. ' +
-      'Sebastian was part of the team which was responsible of the project management. ' +
-      'Later he wrote his bachelor thesis about the data persistence layer of the application.',
-    tags: ['Project Managemant', 'Hadoop', 'MySQL', 'Mantis'],
-    link: 'http://goolap.info/',
-    thumbnail: 'TU_DIMA_GoOLAP.png',
-  },
-  {
-    title: 'Global Phenological Monitoring Programm (GPM)',
-    subtitle: 'Web-application for the Humboldt University',
-    begin: '',
-    end: '2010',
-    description: 'The GPM is a global program for monitoring specific plants and analysing their behavior in the context of ' +
-      'weather data. The web-application was created during a project course at the TU Berlin, which Sebastian took part at.',
-    tags: ['Java', 'JSF', 'JSP', 'Subversion', 'Scrum', 'Trac', 'Spring', 'ant'],
-    link: 'http://gpm.hu-berlin.de/',
-    thumbnail: 'Huberlin-logo.png',
-  },
 ];
 
 export const VOLUNTEERING: CvItem[] = [
@@ -273,155 +115,58 @@ export const VOLUNTEERING: CvItem[] = [
     link: 'http://www.dfb.de',
     thumbnail: 'DFB-Logo.jpg',
   },
-  {
-    title: 'ISTAF & ISTAF Indoor',
-    subtitle: 'Team lead',
-    begin: '2007',
-    end: '2016',
-    description: 'Technical setup, visitor service, security, special tasks, teardown',
-    link: 'https://www.istaf.de',
-    thumbnail: 'ISTAF.png',
-  },
-  {
-    title: 'UEFA Champions League Finals 2015 Berlin',
-    subtitle: 'Team lead',
-    begin: '',
-    end: '2015',
-    description: 'Team lead visitor service',
-    link: 'https://www.uefa.com',
-    thumbnail: 'UEFA_Champions_League-logo.png',
-  },
-  {
-    title: 'CEV Champions League Final Four 2015 Berlin',
-    subtitle: 'Team lead',
-    begin: '',
-    end: '2015',
-    description: 'Team lead backstage security',
-    link: 'http://www.cev.lu/',
-    thumbnail: 'CEV_Champions_League_logo.png',
-  },
-  {
-    title: 'German indoor rowing series',
-    subtitle: 'Technical event manager',
-    begin: '2010',
-    end: '2015',
-    description: 'Technical setup and time measurements',
-    link: 'https://www.concept2.de/indoor-rowers/indoor-regatten/dirm',
-    thumbnail: 'dirs_logo.jpg',
-  },
-  {
-    title: 'Ruder-Bundesliga',
-    subtitle: 'Time measurement',
-    begin: '2009',
-    end: '2015',
-    description: 'Technical setup and time measurements for rowing Bundesliga.',
-    link: 'https://www.ruder-bundesliga.de',
-    thumbnail: 'Logo-Bundesliga_quer.jpg',
-  },
-  {
-    title: 'Deutsche Ruderjugend im Deutschen Ruderverband',
-    subtitle: 'Youth trainer and youth leader',
-    begin: '2007',
-    end: '2014',
-    description: 'Taking care of young rowers in training camps, recreational rowing tours, camp for visiting the Olympic Games.',
-    link: 'https://www.ruderjugend.org',
-    thumbnail: 'DRJ_Logo.jpg',
-  },
-  {
-    title: 'FISA World Rowing Junior Championships 2014 Hamburg',
-    subtitle: 'IT network setup',
-    begin: '',
-    end: '2014',
-    description: '',
-    link: 'http://www.worldrowing.com/',
-    thumbnail: 'FISA_JWM_2014.png',
-  },
-  {
-    title: 'Hertha BSC',
-    subtitle: 'Visitor services, special tasks, team lead',
-    begin: '2008',
-    end: '2011',
-    description: 'Guiding visitors of home matches in the olympic stadium in Berlin. Lastly, as team lead.',
-    link: 'http://www.hertha.de/',
-    thumbnail: 'Hertha_BSC_Logo.svg',
-  },
-  {
-    title: 'IAAF World Championships 2009 Berlin',
-    subtitle: 'Anti-Doping-Chaperone',
-    begin: '',
-    end: '2009',
-    description: '',
-    link: 'https://www.iaaf.org/',
-    thumbnail: 'IAAF_2009_in_Berlin.png',
-  },
-  {
-    title: 'ULEB Euroleague Final Four 2009 Berlin',
-    subtitle: 'Team delegate',
-    begin: '',
-    end: '2009',
-    description: 'Team delegate of a basketeball team of Montepaschi Siena, Italy',
-    link: 'http://www.euroleague.net/',
-    thumbnail: 'ULEB_FinalFour_2009.png',
-  },
-  {
-    title: 'FIFA World Cup 2006 Germany',
-    subtitle: 'Visitor service',
-    begin: '',
-    end: '2006',
-    description: 'Guiding visitors of the olympic stadium in Berlin.',
-    link: 'https://www.fifa.com/',
-    thumbnail: 'fifa_world_cup_2006.jpg',
-  },
 ];
 
 export const CONTACT = {
-  city: 'Berlin, Germany',
-  phone: '',
-  mail: 'sebastian@schreck.berlin',
+  city: 'Washington Terrace, UT',
+  phone: '(801) 388-5765',
+  mail: 'kaydenmiller1@gmail.com',
   skype: '', // just the account name
-  linkedin: 'https://www.linkedin.com/in/sebastian-schreck-050739131/', // full url
-  xing: 'https://www.xing.com/profile/Sebastian_Schreck2', // full url
-  github: 'https://github.com/StegSchreck', // full url
-  stackoverflow: 'https://stackoverflow.com/users/story/6538600', // full url
-  twitter: 'https://twitter.com/StegSchreck', // full url
+  linkedin: 'https://www.linkedin.com/in/kayden-miller-7718b3a3/', // full url
+  xing: '', // full url
+  github: 'https://github.com/KaydenMiller', // full url
+  stackoverflow: 'https://stackoverflow.com/users/13204578/kayden-miller', // full url
+  twitter: '', // full url
   facebook: '', // full url
   instagram: '', // full url
   other: [
-    { title: 'Medium', icon: 'icon-medium', link: 'https://medium.com/@stegschreck' },
-    { title: 'GitHub Page', icon: 'icon-github', link: 'https://stegschreck.github.io' },
-    { title: 'GitLab Page', icon: 'icon-gitlab', link: 'https://stegschreck.gitlab.io' },
+    { title: 'GitHub Page', icon: 'icon-github', link: 'https://kaydenmiller.github.io' },
   ],
 };
 
 export const INTERESTS = [
   {
-    title: 'Cycling',
-    icon: 'directions_bike',
-  },
-  {
-    title: 'GeoCaching',
-    icon: 'not_listed_location',
-  },
-  {
     title: 'Open Source Software',
     icon: 'code',
+  },
+  {
+    title: 'Board Games',
+    icon: 'games'
+  },
+  {
+    title: 'Computer Games',
+    icon: 'games'
   },
   {
     title: 'Reading',
     icon: 'icon-book',
   },
   {
-    title: 'Rowing',
-    icon: 'rowing',
+    title: 'Camping',
+    icon: 'park'
   },
   {
-    title: 'Photography',
-    icon: 'camera_alt',
+    title: 'Bike Riding',
+    icon: 'directions_bike',
   },
   {
-    title: 'Volunteering in sports',
-    icon: 'favorite',
+    title: 'Shooting',
+    icon: 'bolt'
   },
+  {
+    title: 'Paintball',
+    icon: 'bolt'
+  }
 ];
 
 export const PUBLICATIONS: CvItem[] = [
