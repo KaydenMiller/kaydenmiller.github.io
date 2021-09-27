@@ -118,7 +118,7 @@ export const VOLUNTEERING: CvItem[] = [
 ];
 
 export const CONTACT = {
-  city: 'Washington Terrace, UT',
+  city: 'Layton, UT',
   phone: '(801) 388-5765',
   mail: 'kaydenmiller1@gmail.com',
   skype: '', // just the account name

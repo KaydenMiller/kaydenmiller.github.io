@@ -2,7 +2,7 @@
 export const FEATURE_TOGGLES = {
   downloadable_pdf: false,
   tab_publications: false,
-  tab_projects: true,
+  tab_projects: false,
   tab_volunteering: false,
   contact_show_about_section: true,
   contact_email_link: false,
