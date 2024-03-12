@@ -1,0 +1,144 @@
+﻿@page "/resume"
+@using KaydenMiller.App.Components
+
+<MudGrid Justify="Justify.Center">
+    <MudItem sm="12" md="5">
+        <MudPaper Class="pa-16 ma-2" Elevation="0">
+            <ResumeSection Title="Personal">
+                <ResumeItem Title="Kayden Miller"
+                            DescriptionEmphasis="Innovative and Quality-Driven Software Engineer with 8+ years of experiance architecting and developing APIs, Web Applications, and Desktop Applications."
+                            Points="@( ["Location: Layton, UT", "Email: kaydenmiller1@gmail.com"])"/>
+            </ResumeSection>
+            <ResumeSection Title="Education">
+                <ResumeItem Title="Bachelors of Computer Science, Software Engineering"
+                            DescriptionEmphasis="Weber State University, Ogden"
+                            Description="Currently I'm not pursuing finishing this however all that is required is a math course and a test."
+                            StartDate="@(new DateTime(2018, 9, 1))"
+                            Current="@true"/>
+                <ResumeItem Title="Associates of Computer Science, Software Engineering"
+                            DescriptionEmphasis="Weber State University, Ogden"
+                            StartDate="@(new DateTime(2016, 5, 1))"
+                            EndDate="@(new DateTime(2018, 5, 1))"/>
+                <ResumeItem Title="Certificate of Software Development"
+                            DescriptionEmphasis="OWATC, Ogden"
+                            StartDate="@(new DateTime(2014, 8, 1))"
+                            EndDate="@(new DateTime(2016, 5, 1))"/>
+            </ResumeSection>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem sm="12" md="5">
+        <MudPaper Class="pa-16 ma-2" Elevation="0">
+            <ResumeSection Title="Professional Experiance">
+                <ResumeItem Title="Senior Software Engineer"
+                            SubTitle="Atomic Financial"
+                            StartDate="@(new DateTime(2023, 10, 1))"
+                            Current="@true"
+                            IncludeMonth="@true"
+                            Points="@(_seniorSoftwareEngineerPoints)"
+                            Tags="_softwareEngineerAtomicTags"/>
+                <ResumeItem Title="Software Engineering Manager"
+                            SubTitle="Atomic Financial"
+                            StartDate="@(new DateTime(2022, 8, 1))"
+                            EndDate="@(new DateTime(2023, 10, 1))"
+                            IncludeMonth="@true"
+                            Points="@(_softwareEngineeringManagerPoints)"/>
+                <ResumeItem Title="Senior Software Engineer"
+                            SubTitle="Atomic Financial"
+                            StartDate="@(new DateTime(2021, 11, 1))"
+                            EndDate="@(new DateTime(2022, 8, 1))"
+                            IncludeMonth="@true"
+                            Points="@(_seniorSoftwareEngineerPoints)"
+                            Tags="@(_softwareEngineerAtomicTags)"/>
+                <ResumeItem Title="Software Engineer"
+                            SubTitle="Guru Technologies - CrewTracks"
+                            Description="CrewTracks is a sister company to Guru Technologies that works on building construction management software for field reporting."
+                            StartDate="@(new DateTime(2020, 5, 1))"
+                            EndDate="@(new DateTime(2021, 11, 1))"
+                            IncludeMonth="@true"
+                            Points="_softwareEngineerCrewTracksPoints"
+                            Tags="@(["Angular", "REST", "Docker", "Docker Compose", "Git", "PHP", "MySQL", "PostgreSQL", "MSSQL Server", "TypeScript", "JavaScript"])"/>
+                <ResumeItem Title="Software Engineer"
+                            SubTitle="Guru Technologies"
+                            Description="Guru Technologies is a general software contractor located out of Layton UT. I was able to work on a wide varaiaty of projects here."
+                            StartDate="@(new DateTime(2019, 5, 1))"
+                            EndDate="@(new DateTime(2020, 5, 1))"
+                            IncludeMonth="@true"
+                            Points="_softwareEngineerGuruPoints"
+                            Tags="@(["C#", "TypeScript", "JavaScript", "Kubernetes", "Angular", "ASP.NET Core", "REST", "OTEL", "Unit Testing", "RabbitMQ", "Docker", "Docker Compose", "Git", "CI/CD", "Helm", "SQL", "PostgreSQL", "MSSQL Server", "Xamarin", "WPF", "OpenAPI", "Swagger", "GraphQL", "OAuth2", "EKS", "Profiling"])"/>
+                <ResumeItem Title="Assembly Technition"
+                            SubTitle="Cubiscan"
+                            Description="Cubiscan is a dimensioning and messurement company. I mostly worked on building/shipping machinery and debugging the electronics."
+                            StartDate="@(new DateTime(2015, 6, 1))"
+                            EndDate="@(new DateTime(2019, 5, 1))"
+                            IncludeMonth="@true"
+                            Tags="@(["Soldering", "JTag", "C/C++", "C#", "IEEE"])"/>
+            </ResumeSection>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+
+    private readonly List<string> _softwareEngineerAtomicTags =
+    [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "KOA.js",
+        "Puppeteer",
+        "DataDog",
+        "Mixpanel",
+        "Alerting",
+        "OTEL",
+        "Agile/Kanban",
+        "Helm",
+        "Kubernetes",
+        "MongoDB",
+        "Blazor",
+        "Temporal",
+        "Reverse Engineering"
+    ];
+
+    private readonly List<string> _seniorSoftwareEngineerPoints =
+    [
+        "Built Robust HTTP APIs using various tools and frameworks in the JavaScript and Typescript ecosystem such as KOA.js.",
+        "Implemented web scraping and automation technologies to automate direct deposit switching, increasing site traffic by 5%.",
+        "Refactored and maintained logging systems using Winston and Open Telemetry to provide observability metrics.",
+        "Authored Unit tests and E2E tests for applications using Jest and Cypress, reducing the likelihood of a production outage.",
+        "Reverse Engineered security systems such as Castle.io/F5/Cloudflare to equip our customers with payroll data.",
+        "Administered team training on the use of tools and technologies ranging from TypeScript to Open Telemetry and .NET Core.",
+        "Created proxy for cross-region support of data egress in AWS to establish service redundancy for AWS outages.",
+    ];
+
+    private readonly List<string> _softwareEngineeringManagerPoints =
+    [
+        "Utilizing tooling such as Looker/Datadog/Mixpanel to verify statistical significance of task completion within 95 percentile.",
+        "Coordinating tasks using Jira/Linear, ticket management software, for my team to meet and guide company OKRs.",
+        "Coordinating between 3 to 5 teams of 5-10 employees to ensure the reduction of work duplication in and across teams.",
+        "Provides regular updates to invested stakeholders and product owners, using weekly and as needed meetings.",
+        "On-boarding of customers to team projects by providing regular updates and customer feedback implementation.",
+        "Runs a team of 5 to 7 directs, using tools like sprints and retrospectives to align priorities in order to meet deliverables.",
+        "Implementing Agile based sprints on a 2-week sprint schedule to allow feedback from stakeholders and engineers.",
+        "Implementing 1 on 1 meetings with directs to improve employee satisfaction, morale, and increasing team cooperation.",
+    ];
+
+    private readonly List<string> _softwareEngineerGuruPoints =
+    [
+        "Management of Docker/Kubernetes systems in EKS/ECS for clients to reduce the chance of an outage of their services.",
+        "Developed and Maintained documentation for software APIs tooling to include Swagger with OpenAPI3.",
+        "Created Helm charts for managing Kubernetes clusters for production and staging systems.",
+        "Ran a small team of backend engineers as a Technical Lead expediting estimated deliverables to clients.",
+        "Educated fellow developers in best practices of industry standards focusing on backend .NET technologies.",
+        "Created automated deployment pipelines using Azure DevOps and GitLab to reduce time to deploy by more than 50%.",
+    ];
+
+    private readonly List<string> _softwareEngineerCrewTracksPoints =
+    [
+        "Worked in brownfield applications on C#, PHP 7+, Typescript, Angular, and Vue.js for the Shipping and Construction fields.",
+        "Converted CakePHP server side rendered pages into Angular components and pages to enhance the user experience.",
+        "Optimized database queries for relational databases such as PostgreSQL and MSSQL Server for data pipelines.",
+        "Created custom angular components to suit the needs of the client for rendering custom reports for OKRs. ",
+    ];
+
+}

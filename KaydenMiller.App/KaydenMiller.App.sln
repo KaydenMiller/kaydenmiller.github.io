@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaydenMiller.App", "KaydenMiller.App\KaydenMiller.App.csproj", "{D56C4BF0-81CD-47DB-975F-2F6AB1B08E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaydenMiller.Components", "KaydenMiller.Components\KaydenMiller.Components.csproj", "{DB7CFC98-C6B9-46CA-B4C4-77B001A533FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaydenMiller.ComponentViewer", "KaydenMiller.ComponentViewer\KaydenMiller.ComponentViewer.csproj", "{1EB41D63-5D8E-4388-9AB3-1BB946E3B5AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56C4BF0-81CD-47DB-975F-2F6AB1B08E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56C4BF0-81CD-47DB-975F-2F6AB1B08E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56C4BF0-81CD-47DB-975F-2F6AB1B08E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56C4BF0-81CD-47DB-975F-2F6AB1B08E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7CFC98-C6B9-46CA-B4C4-77B001A533FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7CFC98-C6B9-46CA-B4C4-77B001A533FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7CFC98-C6B9-46CA-B4C4-77B001A533FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7CFC98-C6B9-46CA-B4C4-77B001A533FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB41D63-5D8E-4388-9AB3-1BB946E3B5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB41D63-5D8E-4388-9AB3-1BB946E3B5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB41D63-5D8E-4388-9AB3-1BB946E3B5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB41D63-5D8E-4388-9AB3-1BB946E3B5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

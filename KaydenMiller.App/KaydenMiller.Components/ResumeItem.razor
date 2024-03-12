@@ -1,0 +1,76 @@
+﻿<div class="item" >
+    <MudText Typo="Typo.h5" Color="Color.Primary">@(Title.ToUpper())</MudText>
+    <MudText Typo="Typo.subtitle1" Color="Color.Info"><em>@SubTitle</em></MudText>
+    
+    <MudText Typo="Typo.body1"><em>@DescriptionEmphasis</em></MudText>
+    <MudText Typo="Typo.body1">@Description</MudText>
+    
+    @if (StartDate is not null || EndDate is not null)
+    {
+        <MudChip Variant="Variant.Filled" Color="Color.Primary" >@(GetDateBlock())</MudChip>
+    }
+    
+    @if (Points.Any())
+    {
+        <MudList>
+            @foreach (var point in Points)
+            {
+                <MudListItem>@point</MudListItem>
+            }
+        </MudList> 
+    }
+    
+    @if (Tags.Any())
+    {
+        <MudChipSet>
+            @foreach (var tag in Tags)
+            {
+                <MudChip>@tag</MudChip>
+            }
+        </MudChipSet>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string DescriptionEmphasis { get; set; }
+    [Parameter]
+    public string Description { get; set; }
+    [Parameter]
+    public string SubTitle { get; set; }
+    
+    [Parameter]
+    public DateTime? StartDate { get; set; }
+    [Parameter]
+    public DateTime? EndDate { get; set; }
+
+    [Parameter]
+    public bool Current { get; set; }
+    [Parameter]
+    public bool IncludeMonth { get; set; }
+    
+    [Parameter]
+    public IEnumerable<string> Points { get; set; } = Enumerable.Empty<string>();
+
+    [Parameter]
+    public IEnumerable<string> Tags { get; set; } = Enumerable.Empty<string>();
+
+    private string GetDateBlock()
+    {
+        var divider = (EndDate is not null || Current) ? " - " : "";
+        
+        if (IncludeMonth is false)
+        {
+            return $"{StartDate?.Year}{divider}{GetCurrentOrEndDate()}";
+        }
+
+        return $"{StartDate?.ToString("MMM yyyy")}{divider}{GetCurrentOrEndDate("MMM yyyy")}";
+    }
+
+    private string GetCurrentOrEndDate(string format = "yyyy")
+    {
+        return Current ? "Present" : (EndDate?.ToString(format) ?? "DATE");
+    }
+}

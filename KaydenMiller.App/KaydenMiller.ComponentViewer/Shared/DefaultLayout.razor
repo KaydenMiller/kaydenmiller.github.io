@@ -1,0 +1,17 @@
+@inherits LayoutComponentBase
+@* See also: https://github.com/jsakamoto/BlazingStory#%EF%B8%8F-configure-layouts *@
+
+
+<MudThemeProvider IsDarkMode="true"/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<MudLayout>
+    <NavigationBar/>
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.Medium">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+@* @Body *@

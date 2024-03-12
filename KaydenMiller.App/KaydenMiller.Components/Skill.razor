@@ -1,0 +1,22 @@
+﻿
+
+<div style="display: flex; justify-content: space-between;">
+    <MudText Typo="Typo.subtitle1">@Name</MudText>
+    <MudText Typo="Typo.subtitle1">@($"{CompetenceLevel}%")</MudText>
+</div>
+<MudProgressLinear Min="0" 
+                   Max="100" 
+                   Value="CompetenceLevel"
+                   Size="Size.Large"
+                   Color="Color.Tertiary"
+/>
+
+@code {
+
+    [Parameter]
+    public string Name { get; set; } = "";
+
+    [Parameter]
+    public int CompetenceLevel { get; set; }
+
+}
