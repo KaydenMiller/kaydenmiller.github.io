@@ -1,0 +1,43 @@
+﻿@using System.Text.RegularExpressions
+
+<MudCard>
+    <MudCardHeader>
+        <CardHeaderAvatar>
+            <MudAvatar Color="Color.Secondary">@GetTitleAvatar()</MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Typo="Typo.body1">@Title</MudText>
+            <MudText Typo="Typo.body2">@PublishDate</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudIconButton Icon="@Icons.Material.Filled.Book" OnClick="@TriggerOnRead"></MudIconButton>
+        </CardHeaderActions>
+    </MudCardHeader>
+</MudCard>
+
+@code {
+
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public DateTime PublishDate { get; set; }
+    [Parameter]
+    public EventCallback OnRead { get; set; }
+
+    private string GetTitleAvatar()
+    {
+        var words = Regex.Split(Title, @"\W|_");
+        var letters = words
+           .Where(w => !string.IsNullOrWhiteSpace(w))
+           .Select(w => w[0])
+           .Select(char.ToUpper)
+           .Take(2);
+        return string.Join("", letters);
+    }
+
+    private void TriggerOnRead()
+    {
+        OnRead.InvokeAsync();
+    }
+
+}

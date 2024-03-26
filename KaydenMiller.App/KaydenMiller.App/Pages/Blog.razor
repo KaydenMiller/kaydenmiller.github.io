@@ -1,0 +1,38 @@
+﻿@page "/blog"
+@using KaydenMiller.App.Components
+@using BlogEntry = KaydenMiller.App.BlogEntry
+@inject BlogService BlogService
+
+<MudText Typo="Typo.h1">Good Soup Software Blog</MudText>
+
+<MudGrid Justify="Justify.Center">
+    @foreach (var entry in BlogEntries)
+    {
+        <MudItem md="4">
+            <BlogWidget Title="@entry.Name" PublishDate="@entry.PublishDate" OnRead="@(async () => await GetBlogEntry(entry.FileName))"/>
+        </MudItem>
+    }
+</MudGrid>
+
+@if (BlogEntry is not null)
+{
+    <BlogEntry BlogBody="@BlogEntry" />
+}
+
+
+@code {
+
+    private IEnumerable<BlogEntry> BlogEntries { get; set; } = [];
+    private string? BlogEntry { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        BlogEntries = await BlogService.GetBlogEntryFiles();
+    }
+
+    private async Task GetBlogEntry(string file)
+    {
+        BlogEntry = await BlogService.GetMarkdownData(file);
+    }
+    
+}

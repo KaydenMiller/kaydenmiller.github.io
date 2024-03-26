@@ -1,0 +1,20 @@
+﻿[
+  {
+    "name": "Strong Static - Dynamic Loose Typing",
+    "description": "",
+    "publishDate": "2024-03-23T14:37:00+00:00",
+    "fileName": "strong-static-dynamic-loose-typing.md"
+  },
+  {
+    "name": "Test Coverage - As a metric bringing on a dependency",
+    "description": "",
+    "publishDate": "2024-03-23T13:48:00+00:00",
+    "fileName": "test-coverage-dependency-metric.md"
+  },
+  {
+    "name": "JavaScript - Explicit, Implicit, and Quantum Undefined",
+    "description": "",
+    "publishDate": "2023-01-19T18:08:00+00:00",
+    "fileName": "js-quantum-undefined.md"
+  }
+]
