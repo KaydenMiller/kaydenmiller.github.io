@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\obj\\Debug\\net8.0\\compressed\\mcjvfa6wzs.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KaydenMiller.App.styles.css",
+      "PackagePath": "staticwebassets\\KaydenMiller.App.styles.css"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\.nojekyll",
+      "PackagePath": "staticwebassets\\.nojekyll"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\blog-entries\\blog-entries.json",
+      "PackagePath": "staticwebassets\\blog-entries\\blog-entries.json"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\blog-entries\\js-quantum-undefined.md",
+      "PackagePath": "staticwebassets\\blog-entries\\js-quantum-undefined.md"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\blog-entries\\strong-static-dynamic-loose-typing.md",
+      "PackagePath": "staticwebassets\\blog-entries\\strong-static-dynamic-loose-typing.md"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\blog-entries\\test-coverage-dependency-metric.md",
+      "PackagePath": "staticwebassets\\blog-entries\\test-coverage-dependency-metric.md"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\Blazor.png",
+      "PackagePath": "staticwebassets\\images\\Blazor.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\cpp-logo.png",
+      "PackagePath": "staticwebassets\\images\\cpp-logo.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\csharp.png",
+      "PackagePath": "staticwebassets\\images\\csharp.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\datadog.png",
+      "PackagePath": "staticwebassets\\images\\datadog.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\docker.jpg",
+      "PackagePath": "staticwebassets\\images\\docker.jpg"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\git-logo.png",
+      "PackagePath": "staticwebassets\\images\\git-logo.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\jetbrains.png",
+      "PackagePath": "staticwebassets\\images\\jetbrains.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\jira-1.svg",
+      "PackagePath": "staticwebassets\\images\\jira-1.svg"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\js-logo.png",
+      "PackagePath": "staticwebassets\\images\\js-logo.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\k8s.png",
+      "PackagePath": "staticwebassets\\images\\k8s.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\kayden_2016.jpg",
+      "PackagePath": "staticwebassets\\images\\kayden_2016.jpg"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\node-js.png",
+      "PackagePath": "staticwebassets\\images\\node-js.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\rust-logo.png",
+      "PackagePath": "staticwebassets\\images\\rust-logo.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\ts-logo.png",
+      "PackagePath": "staticwebassets\\images\\ts-logo.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\vim.png",
+      "PackagePath": "staticwebassets\\images\\vim.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\images\\visual-studio.png",
+      "PackagePath": "staticwebassets\\images\\visual-studio.png"
+    },
+    {
+      "Id": "D:\\workspaces\\kayden\\kaydenmiller.github.io\\KaydenMiller.App\\KaydenMiller.App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KaydenMiller.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KaydenMiller.App.props",
+      "PackagePath": "build\\KaydenMiller.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KaydenMiller.App.props",
+      "PackagePath": "buildMultiTargeting\\KaydenMiller.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KaydenMiller.App.props",
+      "PackagePath": "buildTransitive\\KaydenMiller.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
