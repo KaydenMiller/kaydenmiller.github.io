@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "KaydenMiller.App",
   "resources": {
-    "hash": "sha256-D3wenxCYyp8TFHqQnT4aKcHVzjumrvc2AdZMxSLEjdE=",
+    "hash": "sha256-43Sn9hC1vgXHskgDYJCKKBTQpffrAsBUJXuPqPyL+Ns=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-DTUQS6Jc6BNnS7sYYezFfaUKVmQq0/lanhQuJfygH/k="
     },
@@ -18,8 +18,8 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "KaydenMiller.App.wasm": "sha256-3Xb+ZGWAE49ILNYthspnlaJivYJ6sS9N6oSbJPqpHN4=",
-      "KaydenMiller.Components.wasm": "sha256-gXdnWiKhjq0eQlNUD1yR3NGouasuLK10QcHXaTMjng0=",
+      "KaydenMiller.App.wasm": "sha256-g9gQcFZWmEnVpmoeSjV/7ntYMsFvuTvnCZv3Whoh0GE=",
+      "KaydenMiller.Components.wasm": "sha256-EGKfxl6KdhzyL6C4EDXiDqU5OZQ+At4WJbC08ryuggc=",
       "Markdig.wasm": "sha256-x36RPVhZhL6Z1mfRPQIVWinkoOIatcjb/DJce7085eM=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-xpsdU9uDJz5t2/e+ZH5CkB8nfZeCmSo9PqwquQX4B2U=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-K/+6c3zlmAc3Y2qud/ksu/AexTbQpjbOhmTw03Ttg7E=",
