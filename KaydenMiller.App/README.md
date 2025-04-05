@@ -1,0 +1,1 @@
+Generate a release and copy that release wwwroot information into MASTER.
