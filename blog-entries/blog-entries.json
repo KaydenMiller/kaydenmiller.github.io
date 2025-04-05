@@ -16,5 +16,11 @@
     "description": "",
     "publishDate": "2023-01-19T18:08:00+00:00",
     "fileName": "js-quantum-undefined.md"
+  },
+  {
+    "name": "Telemetry - Best Practices and Thoughts",
+    "description": "Just some of my thoughts on best practices when using telemetry tools",
+    "publishDate": "2025-03-05T11:57:00+00:00",
+    "fileName": "telemetry-best-practices.md"
   }
 ]
